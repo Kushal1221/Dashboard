@@ -20,7 +20,7 @@ function App() {
       <>
         <div className="app">
           <Header />
-          <Dashboard />
+          <Dashboard analyticsData={analyticsData} />
           <Footer />
         </div>
       </>
